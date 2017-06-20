@@ -6,7 +6,6 @@ header {
   align-items: center;
   height: 80px;
   width: 100%;
-  border: black solid;
   position: fixed;
   z-index: 10;
   border-bottom: 1px black solid;
@@ -47,7 +46,6 @@ nav a {
   flex-direction: row;
   justify-content: center;
   position: relative;
-  border: 1px black solid;
   margin-top: 116px;
   overflow: scroll;
   min-width: 1330px;
@@ -78,7 +76,6 @@ p {
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px black solid;
   align-content: flex-start;
   margin-right: 30px;
 
@@ -137,7 +134,6 @@ p {
   width: 300px;
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
   margin-right: 30px;
 
 }
@@ -146,7 +142,6 @@ p {
   width: 240px;
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
   margin-right: 30px;
 }
 

@@ -1,0 +1,89 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  border: black solid;
+  position: static;
+  z-index: 10;
+  border-bottom: 1px black solid;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  color: mediumAquamarine;
+  align-items: center;
+  padding-left: 30px;
+  margin-right: 200px;
+}
+
+.logo span {
+  padding-left: 20px;
+}
+
+div {
+  border: 1px black solid;
+}
+
+header nav {
+  display: flex;
+  padding-right: 40px;
+  border: 1px black solid;
+  justify-content: flex-end;
+  text-align: right;
+  }
+
+a {
+  color: black;
+  margin: 20px 10px;
+}
+
+ nav span {
+  display: inline-block;;
+  text-align: right;
+}
+
+
+
+.main {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  border: 1px black solid;
+  margin: 0 50px;
+}
+
+h1 {
+  border: 1px black solid;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px black solid;
+  align-content: flex-start;
+  margin-right: 30px;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  margin-right: 30px;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  margin-right: 30px;
+}

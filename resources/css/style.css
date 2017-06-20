@@ -7,62 +7,57 @@ header {
   height: 80px;
   width: 100%;
   border: black solid;
-  position: static;
+  position: fixed;
   z-index: 10;
   border-bottom: 1px black solid;
   background-color: white;
-}
+  top: 0;
+  }
 
 .logo {
   display: flex;
   color: mediumAquamarine;
   align-items: center;
   padding-left: 30px;
-  margin-right: 300px;
+  margin-right: 30px;
+  flex-grow: 1;
 }
 
 .logo span {
   padding-left: 20px;
+  min-width: 100px;
 }
-
-div {
-  border: 1px black solid;
-  }
 
 header nav {
   padding-right: 40px;
   border: 1px black solid;
-  position: relative;
   margin-right: 30px;
+  min-width: 300px;
+  overflow: hidden;
   }
 
-a {
+nav a {
   color: black;
   margin: 20px 10px;
 }
 
- nav span {
-  display: inline-block;;
-  text-align: right;
-}
-
-
 
 .main {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   border: 1px black solid;
-  margin: 0 50px;
+  margin-top: 116px;
   overflow: scroll;
+  min-width: 1330px;
 }
 
 p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  display: flex;
+  display: ;
 }
 
 .image-text {
@@ -99,12 +94,13 @@ p {
 }
 
 .side-story {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   height: 600px;
-}
+  ;
+  }
 
 
 .orca {
@@ -154,8 +150,6 @@ p {
   margin-right: 30px;
 }
 
-
-
 .cats-image {
   background-image: url(../images/cat.png);
   display: flex;
@@ -164,6 +158,64 @@ p {
   height: 300px;
 }
 
-.news p {
-  margin-bottom: 0px;
+.news {
+  align-items: center;
+}
+
+
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.trash {
+  background-color: WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+
+}
+
+.trash p {
+  font-family: Verdana;
+  font-size: 12px;
+  border-bottom: 1px black solid;
+  padding: 10px 10px;
+  margin: 0 0;
+  color: DimGrey;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#MyTimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-flex;
+  padding-right: 20px;
+  border-right: 2px white solid;
+}
+
+footer a {
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  margin: 20px 20px;
+}
+
+footer p {
+  font-family: Verdana;
+  font-size: 12px;
 }
